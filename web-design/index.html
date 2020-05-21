@@ -12,47 +12,53 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/stile.css">
 
 </head>
-  <body>
-    <section id="nav-bar">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">OUT TEAM</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PRICE PLANS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">TESTIMONIAL</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACTS</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </section>
 
+<body>
+  <!--  seccion menu navegacion -->
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUT TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRICE PLANS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TESTIMONIAL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!--  seccion slide -->
+
+  <div id="slider">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -61,13 +67,22 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/slider1.jpg" class="d-block w-100" alt="...">
+          <img src="img/slider1.jpg" class="d-block w-100">
+          <div class="carousel-caption">
+            <h5>How to make A Website</h5>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+          <img src="img/slider2.jpg" class="d-block w-100">
+          <div class="carousel-caption">
+            <h5>Bussines WebSite Design</h5>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="img/slider1.jpg" class="d-block w-100" alt="...">
+          <img src="img/slider1.jpg" class="d-block w-100">
+          <div class="carousel-caption">
+            <h5>How to make A Website</h5>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -79,6 +94,78 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    
-  </body>
+  </div>
+
+  <!--  seccion de about -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <div class="about-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam saepe excepturi corporis sint quibusdam necessitatibus voluptatem assumenda, accusantium, laudantium facilis eius aspernatur rerum ex odit! Culpa autem eos voluptate porro!
+          </div>
+          <button type="button" class="btn btn-primary">Read More>></button>
+        </div>
+        <div class="col-md-6 skills-bar">
+          <p>Adobe Photoshop</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;">80%</div>
+          </div>
+          <p>UI Design</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 85%;">85%</div>
+          </div>
+          <p>WordPress</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%;">75%</div>
+          </div>
+          <p>Graphics Design</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%;">50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------ servicios----------->
+  <section id="services">
+    <div class="container">
+      <h1>Our Services</h1>
+      <div class="row services">
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-desktop"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod, sed do eiusmod</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-tablet"></i>
+          </div>
+          <h3>App Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod, sed do eiusmod</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-line-chart"></i>
+          </div>
+          <h3>Marketing Digital</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod, sed do eiusmod</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fa fa-paint-brush"></i>
+          </div>
+          <h3>Graphics Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod, sed do eiusmod</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
 </html>

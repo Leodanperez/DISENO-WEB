@@ -256,3 +256,104 @@ h1::after{
   padding: 15px 10px;
   list-style: none;
 }
+ul li:last-child {
+  border: none;
+}
+.fa-check-circle {
+  color: green;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.fa-times-circle {
+  color: red;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.price-button {
+  display: inline;
+  float: left;
+  padding: 15px 15px 30px;
+  text-align: center;
+  width: 100%;
+}
+.buy-btn {
+  background-color: #007bff;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 50px;
+  transition: 0.5s;
+}
+.buy-btn:hover{
+  border-color: 1px solid #fff;
+  background-color: #3f51b5;
+}
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+/*****-------------testimonios ---------------------*/
+#testimonios{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#testimonios .row{
+  margin-top: 50px;
+}
+.col-md-4 {
+  margin: 40px auto;
+}
+.profile {
+  padding: 70px 10px 10px;
+  background-color: #efefef;
+}
+.user{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile img {
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid #fff;
+}
+.profile h3{
+  font-size: 20px;
+  margin-top: 15px;
+  color: #007bff;
+}
+#testimonios span{
+  font-size: 20px;
+  color: #333;
+}
+blockquote{
+  font-size: 16px;
+  line-height: 30px;
+}
+blockquote::before{
+  content: '\201C';
+  font-size: 50px;
+  color: #007bff;
+  position: relative;
+  line-height: 20px;
+  bottom: -15px;
+  right: 5px;
+}
+blockquote::after{
+  content: '\201D';
+  font-size: 50px;
+  color: #007bff;
+  position: relative;
+  line-height: 10px;
+  bottom: -15px;
+  right: 5px;
+}
+.profile:hover{
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
